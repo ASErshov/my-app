@@ -1,0 +1,44 @@
+@import url(https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css);
+
+.thirdSlide{
+    height: 100%;
+    position: relative;
+}
+.thirdSlideOne .thirdSlide_centerBlock{
+    background-image: url('../assets/ref3_1.png');
+}
+.thirdSlideTwo .thirdSlide_centerBlock{
+    background-image: url('../assets/ref3_2.png');
+}
+.thirdSlideThree .thirdSlide_centerBlock{
+    background-image: url('../assets/ref3_3.png');
+}
+@media (orientation: landscape){
+    .thirdSlide_centerBlock{
+        height: 100%;
+        width: calc(100vh * 1.33);
+        margin: auto;
+    }
+
+}
+@media (orientation: portrait){
+    .thirdSlide{
+        display: flex;
+        align-items: center;
+    }
+    .thirdSlide_centerBlock{
+        width: 100%;
+        height: calc(100vw * 0.75);
+    }
+}
+
+.thirdSlide_centerBlock{
+    display: grid;
+    grid-template-rows: 2fr 5fr 2fr;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    color: white;
+    font-family: 'GothamPro';
+}

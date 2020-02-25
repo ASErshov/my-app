@@ -1,0 +1,104 @@
+@import url(https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css);
+
+.firstSlide{
+    height: 100%;
+    position: relative;
+}
+@media (orientation: landscape){
+    .firstSlide_centerBlock{
+        height: 100%;
+        width: calc(100vh * 1.33);
+        margin: auto;
+    }
+    .firstSlide_contentBlock div:nth-child(1){
+        font-size: 7vh;
+    }
+    .firstSlide_contentBlock div{
+        font-size: 3vh;
+    }
+}
+@media (orientation: portrait){
+    .firstSlide{
+        display: flex;
+        align-items: center;
+    }
+    .firstSlide_centerBlock{
+        width: 100%;
+        height: calc(100vw * 0.75);
+    }
+    .firstSlide_contentBlock div:nth-child(1){
+        font-size: 6vw;
+    }
+    .firstSlide_contentBlock div{
+        font-size: 3vw;
+    }
+}
+
+.firstSlide_centerBlock{
+    display: grid;
+    grid-template-rows: 8fr 1fr;
+    background-image: url('../assets/ref.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.firstSlide_contentBlock{
+    color: #0d319c;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 20%;
+    grid-template-areas: 
+    "a a a a"
+    "b b b f"
+    "c c d f"
+    "c c d f"
+    "c c d f";
+}
+.firstSlide_contentBlock div:nth-child(1){
+    grid-area: a;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.firstSlide_contentBlock div:nth-child(2){
+    grid-area: b;
+    margin-left: auto;
+    margin-top: auto;
+}
+.firstSlide_contentBlock div:nth-child(3){
+    grid-area: c;
+    margin-left: 40%;
+    margin-top: auto;
+    margin-bottom: 50%;
+}
+.firstSlide_contentBlock div:nth-child(4){
+    grid-area: d;
+    margin-top: auto;
+    margin-bottom: 60%;
+    margin-left: -65%;
+}
+.firstSlide_contentBlock div:nth-child(5){
+    grid-area: f;
+    margin-top: auto;
+    margin-bottom: 70%;
+}
+.pulser1{
+    position: absolute;
+    top: calc(56.7% - 2.5vh);
+    left: calc(28.1% - 2.5vh);
+}
+.pulser2{
+    position: absolute;
+    top: calc(71% - 2.5vh);
+    left: calc(47.56% - 2.5vh);
+}
+.pulser3{
+    position: absolute;
+    top: calc(68% - 2.5vh);
+    left: calc(81.2% - 2.5vh);
+}
+.pulser4{
+    position: absolute;
+    top: calc(37.6% - 2.5vh);
+    left: calc(57.6% - 2.5vh);
+}

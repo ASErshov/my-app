@@ -1,0 +1,14 @@
+@media (orientation: portrait){
+    .slideHeader{
+        font-size: 5vw;
+    }
+}
+@media (orientation: landscape){
+    .slideHeader{
+        font-size: 5vh;
+    }
+}
+.slideHeader{
+    margin-top: auto;
+    margin-left: 10%;
+}

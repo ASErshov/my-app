@@ -1,0 +1,54 @@
+.toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 70%;
+    height: 9%;
+    padding: 0;
+    background: #435063;
+    outline: none;
+    overflow: hidden;
+    }
+    
+    /* Линия-ндикатор для Firefox */
+    
+    input[type=range]::-moz-range-track {
+    background: none;
+    border: none;
+    }
+    
+    /* ползунок в Firefox */
+    
+    input[type=range]::-moz-range-thumb {
+    -moz-appearance: none;
+    width: calc(6em * 0.75);
+    height: 6em;
+    background-image: url(../../assets/Toggle.png);
+    }
+    
+    /* ползунок в Хроме */
+    
+    input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: calc(6em * 0.75);
+    height: 6em;
+    background-image: url(../../assets/Toggle.png);
+    overflow: visible;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: -1000019px 0 10px 1000000px white;
+    }
+    @media (max-width: 767px), (max-height: 767px){
+        input[type=range]::-webkit-slider-thumb {
+            width: calc(3em * 0.75);
+            height: 3em;
+        }
+        input[type=range]::-moz-range-thumb {
+            width: calc(3em * 0.75);
+            height: 3em;
+        }
+    }
