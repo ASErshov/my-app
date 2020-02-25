@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import FirstSlide from './FirstSlide/FirstSlide';
-import SecondSlide from './SecondSlide/SecondSlide';
-import ThirdSlide from './ThirdSlide/ThirdSlide';
+import FirstSlide from './components/FirstSlide/FirstSlide';
+import SecondSlide from './components/SecondSlide/SecondSlide';
+import ThirdSlide from './components/ThirdSlide/ThirdSlide';
 
 const App = () => {
   return (

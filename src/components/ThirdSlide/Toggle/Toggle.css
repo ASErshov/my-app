@@ -27,7 +27,7 @@ input[type=range] {
     -moz-appearance: none;
     width: calc(6em * 0.75);
     height: 6em;
-    background-image: url(../../assets/Toggle.png);
+    background-image: url(../../../assets/Toggle.png);
     }
     
     /* ползунок в Хроме */
@@ -36,7 +36,7 @@ input[type=range] {
     -webkit-appearance: none;
     width: calc(6em * 0.75);
     height: 6em;
-    background-image: url(../../assets/Toggle.png);
+    background-image: url(../../../assets/Toggle.png);
     overflow: visible;
     background-size: contain;
     background-repeat: no-repeat;

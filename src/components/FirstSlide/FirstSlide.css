@@ -37,7 +37,7 @@
 .firstSlide_centerBlock{
     display: grid;
     grid-template-rows: 8fr 1fr;
-    background-image: url('../assets/ref.png');
+    background-image: url('../../assets/ref.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
