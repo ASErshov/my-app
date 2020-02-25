@@ -1,13 +1,13 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
-import './SecondSlide.css';
+import classes from './SecondSlide.module.css';
 
 
 const SecondSlide= () => {
   return (
-    <div className='secondSlide'>
-        <div className='secondSlide_centerBlock'>
-          <div className='secondSlide_contentBlock'>
+    <div className={classes.secondSlide}>
+        <div className={classes.secondSlide_centerBlock}>
+          <div className={classes.secondSlide_contentBlock}>
               <div>
                 Основа терапии -<br/>
                 патогенез СД2

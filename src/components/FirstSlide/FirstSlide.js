@@ -1,18 +1,18 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
-import './FirstSlide.css';
+import classes from './FirstSlide.module.css';
 import Pulser from './Pulser/Pulser';
 
 
 const FirstSlide = () => {
   return (
-    <div className='firstSlide'>
-        <div className='firstSlide_centerBlock'>
-        <div className='pulser1'><Pulser /></div>
-        <div className='pulser2'><Pulser /></div>
-        <div className='pulser3'><Pulser /></div>
-        <div className='pulser4'><Pulser /></div>
-          <div className='firstSlide_contentBlock'>
+    <div className={classes.firstSlide}>
+        <div className={classes.firstSlide_centerBlock}>
+        <div className={classes.pulser1}><Pulser /></div>
+        <div className={classes.pulser2}><Pulser /></div>
+        <div className={classes.pulser3}><Pulser /></div>
+        <div className={classes.pulser4}><Pulser /></div>
+          <div className={classes.firstSlide_contentBlock}>
               <div>
                 Всегда ли цели терапии СД2<br/>
                 на поверхности?

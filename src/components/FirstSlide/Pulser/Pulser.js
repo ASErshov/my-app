@@ -1,12 +1,12 @@
 import React from 'react';
-import './Pulser.css';
+import classes from  './Pulser.module.css';
 
 
 const Pulser = () => {
   return (
     <div>
-        <span className="mgo-widget-call_pulse"></span>
-        <span className="mgo-widget-call_pulse2"></span>
+        <span className={classes.call_pulse}></span>
+        <span className={classes.call_pulse2}></span>
     </div>
   )
 };

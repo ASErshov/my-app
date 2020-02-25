@@ -1,10 +1,10 @@
 import React from 'react';
-import './Footer.css'
+import classes from './Footer.module.css'
 
 const Footer = () => {
     return (
         <footer>
-            <div className='next'>
+            <div className='classes.next'>
                 Листайте вниз
                 <div></div>
             </div>

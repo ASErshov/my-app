@@ -1,8 +1,8 @@
 import React from 'react';
-import './SlideHeader.css'
+import classes from './SlideHeader.module.css'
 const SlideHeader= () => {
     return (
-      <div className='slideHeader'>
+      <div className={classes.slideHeader}>
           Cмертельный октет
       </div>
     );

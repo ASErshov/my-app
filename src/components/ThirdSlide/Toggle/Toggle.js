@@ -1,9 +1,9 @@
 import React from 'react';
-import './Toggle.css';
+import classes from './Toggle.module.css';
 
 const Toggle= () => {
     return (
-      <div className='toggle'>
+      <div className={classes.toggle}>
         <input type="range" defaultValue="0" max="100"/>
       </div>
     );
