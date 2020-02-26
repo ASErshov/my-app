@@ -13,7 +13,7 @@ const SecondSlide= () => {
                 патогенез СД2
               </div>
           </div>
-          <Footer/>
+          <Footer link="/thirdslide"/>
         </div>
     </div>
   );

@@ -30,7 +30,7 @@ const FirstSlide = () => {
                 СС риски
               </div>
           </div>
-          <Footer/>
+          <Footer link="/secondslide"/>
         </div>
     </div>
   );
